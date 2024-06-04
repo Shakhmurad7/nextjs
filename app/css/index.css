@@ -49,8 +49,23 @@
     font-size: 12px;
 }
 .nav-button{
-
     padding: 20px 40px ; 
     width: fit-content;
     background-color: #E8594E;
+}
+.home-search{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+}
+.search-icon{
+    font-size: 22px;
+}
+.home-search input{
+    outline: none;
+    font-size: 22px;
+    border: none;
+    width: 300px;
 }

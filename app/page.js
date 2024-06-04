@@ -1,6 +1,7 @@
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { IoIosMenu } from "react-icons/io";
+import { CiSearch } from "react-icons/ci";
 
 import './css/index.css'
 
@@ -44,6 +45,11 @@ export default  async function Home() {
             <div className="nav-button">
               <p>BUY THE BOOK</p>
             </div>
+          </div>
+
+          <div className="home-search" >
+            <input placeholder="Search stories" />
+            <div className="search-icon"><CiSearch /></div>
           </div>
 
 
