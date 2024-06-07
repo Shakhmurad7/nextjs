@@ -4,6 +4,7 @@ import { IoIosMenu } from "react-icons/io";
 import { CiSearch } from "react-icons/ci";
 
 import './css/index.css'
+import Cart from "./CartTop/cart";
 
 export default  async function Home() {
 
@@ -53,10 +54,21 @@ export default  async function Home() {
           </div>
 
 
+
+      </div>
+    </div>
+
+
+
+
+
+        {/* CartTop */}
+        <div className="container" >
+            <Cart/>
         </div>
 
 
-      </div>
+
     </>
   );
 }

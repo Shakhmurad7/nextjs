@@ -69,3 +69,27 @@
     border: none;
     width: 300px;
 }
+
+
+/*----cartTop----- */
+.cart-container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 60px 0px;
+}
+.cart-text-top {
+    width: 100%;
+    max-width: 550px;
+}
+.cart-text-top h2{
+    font-size: 3rem;
+}
+.cart-block{
+    display: flex;
+    gap: 20px;
+}
+.cart-img img{
+    width: 100%;
+    max-width: 400px;
+}
