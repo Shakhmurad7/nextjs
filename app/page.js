@@ -58,15 +58,58 @@ export default  async function Home() {
       </div>
     </div>
 
-
-
-
-
         {/* CartTop */}
         <div className="container" >
             <Cart/>
         </div>
 
+
+        {/* footer */}  
+        <div className="container" > 
+
+            <div className="footer-conyainer" >
+                    <div className="footer-content">
+                        <div className="footer-content-text-item">Company</div>
+                        <div className="footer-content-text">
+                            <li>About</li>
+                            <li>Press</li>
+                            <li>Blog</li>
+                            <li>Careers</li>
+                            <li>Security</li>
+                            <li>Driver Centre</li>
+                        </div>
+                    </div>
+                    <div className="footer-content">
+                        <div className="footer-content-text-item">Information</div>
+                        <div className="footer-content-text">
+                            <li>Our Story</li>
+                            <li>Recipes</li>
+                            <li>Nutrition</li>
+                            <li>Resources</li>
+                            <li>Newsletter</li>
+                            <li>Contact</li>
+                        </div>
+                    </div>
+              
+                    <div className="footer-content">
+                        <div className="footer-content-text-item">Company</div>
+                        <div className="footer-content-text">
+                            <li>Customer service</li>
+                            <li>Recommend a restaurant</li>
+                            <li>Signup a restaurant</li>
+                            <li>Jobs</li>
+                            <li>Press</li>
+                            <li>Terms of use</li>
+                        </div>
+                    </div>
+                    <div className="footer-content">
+                        <div className="footer-content-text-item">Subscribe Now</div>
+                        <div className="footer-content-input">
+                            <input placeholder="Your email"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
     </>

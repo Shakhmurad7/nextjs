@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+li{
+    list-style: none;
+}
 .container{
     padding: 0px 80px;
 }
@@ -141,4 +144,12 @@
     left: 0;
     top: 0;
     bottom: 0;
+}
+
+
+/* footer */
+.footer-conyainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
