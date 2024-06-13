@@ -2,6 +2,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { IoIosMenu } from "react-icons/io";
 import { CiSearch } from "react-icons/ci";
+import { FaRegUser } from "react-icons/fa";
 
 import './css/index.css'
 import Cart from "./CartTop/cart";
@@ -106,6 +107,8 @@ export default  async function Home() {
                         <div className="footer-content-text-item">Subscribe Now</div>
                         <div className="footer-content-input">
                             <input placeholder="Your email"/>
+                            <div className="icon-user" ><FaRegUser /></div>
+                            <p>Subscribe Now</p>
                         </div>
                     </div>
                 </div>
