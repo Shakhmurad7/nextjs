@@ -7,6 +7,8 @@ import { FaRegUser } from "react-icons/fa";
 import './css/index.css'
 import Cart from "./CartTop/cart";
 
+import ContentUser from "./contentUser/content";
+
 export default  async function Home() {
 
   return (
@@ -63,6 +65,9 @@ export default  async function Home() {
         <div className="container" >
             <Cart/>
         </div>
+          
+        {/* ---contentUser--- */}
+            <ContentUser/>
 
 
         {/* footer */}  

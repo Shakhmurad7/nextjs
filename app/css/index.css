@@ -234,3 +234,45 @@ li{
     display: flex;
     gap: 30px;
 }
+
+/* ----contentUser---- */
+.content-container{
+
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+    background-image: url('../../public/imgs/Background.png');
+}
+.content-left{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 50px;
+    justify-content: end;
+    width: 100%;
+    max-width: 400px;
+}
+.content-right{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 100%;
+    max-width: 450px;
+    padding: 80px 50px;
+    background-color: #3c4a51dd;
+}
+.content-block-left{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+.content-block-box{
+    display: flex;
+    gap: 20px;
+}
+.content-bock-box-row{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
