@@ -148,7 +148,8 @@ li{
 
 
 /* footer */
-.footer-conyainer{
+.footer-container{
+    padding: 70px 0px ;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -217,4 +218,19 @@ li{
 .footer-content p:hover{
     transition: .4s;
     background-color: #4f787fe7;
+}
+
+
+.footer-bottom{
+    font-size: 14px;
+    color: 
+    #959EA6;
+    border-top: 1px solid  #aeb8c1;;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom-left{
+    display: flex;
+    gap: 30px;
 }

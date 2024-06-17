@@ -68,7 +68,7 @@ export default  async function Home() {
         {/* footer */}  
         <div className="container" > 
 
-            <div className="footer-conyainer" >
+            <div className="footer-container" >
                     <div className="footer-content">
                         <div className="footer-content-text-item">Company</div>
                         <div className="footer-content-text">
@@ -112,6 +112,16 @@ export default  async function Home() {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div className="footer-bottom">
+      
+                <div className="footer-bottom-right">© 2019 Mass Impressions. Designed by Tran Mau Tri Tam for Mass Impressions. All rights reserved.</div>
+                <div className="footer-bottom-left">
+                  <p>Terms of Service</p>
+                  <p>Privacy Policy</p>
+                </div>
+  
             </div>
 
 
