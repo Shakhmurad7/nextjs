@@ -281,16 +281,25 @@ li{
     gap: 10px;
 }
 .p-item{
+    cursor: pointer;
     font-size: 12px;
     padding: 10px 20px ;
     background-color: #E8594E;
     border-radius: 20px;
     width: fit-content;
+    transition: .4s;
 }
+.p-item:hover , .p-button:hover{
+    transition: .4s;
+    transform:scaleX(1.2);
+}
+
 .content-p-text{
     font-size: 1.8rem;
 }
 .p-button{
+    cursor: pointer;
+    transition: .4s;
     padding: 20px 60px;
     font-size: 12px;
     background-color: #73AFBA;
@@ -301,3 +310,38 @@ li{
     color: #ffffff77;
 }
 
+
+
+
+
+/* ----Contact----- */
+
+.Contact{
+    height: 700px;
+    width: 100%;
+    background-image: url("../../public/imgs/Mask Group.jpg");
+}
+.contact-container{
+    position: relative;
+    height: 100%;
+    padding: 0px 100px;
+}
+.container.contact{
+    padding: 80px;
+}
+.contact-text-left{
+    bottom: 180px;
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 450px;
+}
+.contact-text-left h2{
+    font-size: 3.5rem;
+}
+.contact-text-left p{
+    color: #ffffffb9;
+}

@@ -8,6 +8,7 @@ import './css/index.css'
 import Cart from "./CartTop/cart";
 
 import ContentUser from "./contentUser/content";
+import Contact from "./Contact/contact";
 
 export default  async function Home() {
 
@@ -68,6 +69,9 @@ export default  async function Home() {
           
         {/* ---contentUser--- */}
             <ContentUser/>
+
+        {/* ---Contact----    */}
+            <Contact/>
 
 
         {/* footer */}  
