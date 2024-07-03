@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 https
-figma - ://www.figma.com/design/6doFNNXepkzolMs4usZlL1/MaxGraph-Youtube-marathon-1.0?node-id=0-1&t=F94IUWvZQE2qnBQi-0
+figma - https://www.figma.com/design/6doFNNXepkzolMs4usZlL1/MaxGraph-Youtube-marathon-1.0?node-id=0-1&t=4rAbeHmBCf98jbpl-0
 
 ## Getting Started
 
