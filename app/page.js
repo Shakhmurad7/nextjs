@@ -9,6 +9,7 @@ import Cart from "./CartTop/cart";
 
 import ContentUser from "./contentUser/content";
 import Contact from "./Contact/contact";
+import Swipers from "./Swiper/swiper";
 
 export default  async function Home() {
 
@@ -69,6 +70,9 @@ export default  async function Home() {
           
         {/* ---contentUser--- */}
             <ContentUser/>
+
+        {/* ----Swiper---- */}
+            <Swipers/>
 
         {/* ---Contact----    */}
             <Contact/>
