@@ -72,7 +72,9 @@ export default  async function Home() {
             <ContentUser/>
 
         {/* ----Swiper---- */}
-            <Swipers/>
+        <div style={{padding:'50px 0px'}} >
+                 <Swipers/>
+        </div>
 
         {/* ---Contact----    */}
             <Contact/>
