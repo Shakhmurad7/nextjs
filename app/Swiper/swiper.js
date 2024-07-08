@@ -22,7 +22,7 @@ const Slider = () => {
   return (
 <>
     <div className='swiper-top-text' >
-        <h2>Featured Images</h2>
+        <h2>Featured Images   </h2>
         <p>The state of Utah in the United States is home to lots of beautiful National Parks, & Bryce Canyon National Park ranks as three of the most magnificent & awe inspiring.</p>
     </div>
 

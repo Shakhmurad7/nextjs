@@ -438,3 +438,75 @@ body {
   height: 450px;
 }
 
+
+
+/* ----cartBox---- */
+.cartBox-top-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 490px;
+    margin: 0 auto;
+    padding: 70px 0px ;
+    text-align: center;
+}
+.cartBox-top-text p{
+    color: rgba(0, 0, 0, 0.473);
+}
+.cartBox-top-text h2{
+    font-size: 3rem;
+}
+.cartBox-block-one{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+.cartBox-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.block-one-div-1{
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-image: url("../../public/imgs/Group 11.png");
+}
+.block-one-div-2{
+    background-size: cover;
+    width: 43%;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-image: url("../../public/imgs/Group 3.png");
+}
+.block-two-row-div{
+    display: flex;
+    gap: 30px;
+}
+.block-two-div-img-1{
+    background-size: cover;
+    width:450px;
+    background-repeat: no-repeat;
+    height: 550px;
+    background-image: url("../../public/imgs/Mask Group (1).jpg");
+}
+.block-two-div-img-2{
+    background-size: cover;
+    width:450px;
+    background-repeat: no-repeat;
+    height: 550px;
+    background-image: url("../../public/imgs/Mask Group (2).jpg");
+}
+.block-two-div-2{
+    background-size: cover;
+    width: 30%;
+    background-repeat: no-repeat;
+    height: 550px;
+    background-image: url("../../public/imgs/simon-migaj-ww4BDfglPyA-unsplash 1.png");
+}
+.cartBox-block-two{
+    display: flex;
+    gap: 30px;
+}
+
+

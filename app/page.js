@@ -10,6 +10,7 @@ import Cart from "./CartTop/cart";
 import ContentUser from "./contentUser/content";
 import Contact from "./Contact/contact";
 import Swipers from "./Swiper/swiper";
+import CartBox from "./cartBox/CartBox";
 
 export default  async function Home() {
 
@@ -78,6 +79,9 @@ export default  async function Home() {
 
         {/* ---Contact----    */}
             <Contact/>
+
+        {/* ----CartBox---- */}
+            <CartBox/>
 
 
         {/* footer */}  
