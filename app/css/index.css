@@ -18,6 +18,7 @@ li{
     padding: 50px 0px;
 }
 .home-page{
+    background-size: cover;
     background-image: url("../../public/imgs/Background.jpg");
     background-repeat: no-repeat;
     width: 100%;
@@ -90,6 +91,7 @@ li{
     font-size: 3rem;
 }
 .cart-block{
+    justify-content: space-between;
     display: flex;
     gap: 20px;
 }
@@ -238,7 +240,7 @@ li{
 
 /* ----contentUser---- */
 .content-container{
-
+    background-size: cover;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -318,6 +320,7 @@ li{
 /* ----Contact----- */
 
 .Contact{
+    background-size: cover;
     height: 700px;
     width: 100%;
     background-image: url("../../public/imgs/Mask Group.jpg");
@@ -456,12 +459,13 @@ body {
 .cartBox-top-text h2{
     font-size: 3rem;
 }
-.cartBox-block-one{
-    width: 100%;
+.cartBox-block-one , .cartBox-block-two , .cartBox-block-three {
     display: flex;
     gap: 30px;
 }
 .cartBox-container{
+    width: 100%;
+    max-width: 1380px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -504,9 +508,19 @@ body {
     height: 550px;
     background-image: url("../../public/imgs/simon-migaj-ww4BDfglPyA-unsplash 1.png");
 }
-.cartBox-block-two{
-    display: flex;
-    gap: 30px;
+
+.block-three-div-1{
+    background-size: cover;
+    width: 51%;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-image: url("../../public/imgs/andre-a-xavier-tABAti6Qko4-unsplash 1.png");
+}
+.block-three-div-2{
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-image: url("../../public/imgs/Group 11 (1).png");
 }
 
 

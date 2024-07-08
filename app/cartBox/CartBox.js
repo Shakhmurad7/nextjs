@@ -21,7 +21,10 @@ function CartBox() {
                 </div>
                 < div className='block-two-div-2'></div>
             </div>
-            <div className='cartBox-block-three' ></div>
+            <div className='cartBox-block-three' >
+                <div className='block-three-div-1'></div>
+                <div className='block-three-div-2'></div>
+            </div>
         </div>
     </div>
   )
