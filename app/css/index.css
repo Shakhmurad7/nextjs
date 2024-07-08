@@ -471,12 +471,14 @@ body {
     gap: 30px;
 }
 .block-one-div-1{
+    position: relative;
     width: 100%;
     background-repeat: no-repeat;
     height: 400px;
     background-image: url("../../public/imgs/Group 11.png");
 }
 .block-one-div-2{
+    position: relative;
     background-size: cover;
     width: 43%;
     background-repeat: no-repeat;
@@ -488,6 +490,7 @@ body {
     gap: 30px;
 }
 .block-two-div-img-1{
+    position: relative;
     background-size: cover;
     width:450px;
     background-repeat: no-repeat;
@@ -495,6 +498,7 @@ body {
     background-image: url("../../public/imgs/Mask Group (1).jpg");
 }
 .block-two-div-img-2{
+    position: relative;
     background-size: cover;
     width:450px;
     background-repeat: no-repeat;
@@ -502,6 +506,7 @@ body {
     background-image: url("../../public/imgs/Mask Group (2).jpg");
 }
 .block-two-div-2{
+    position: relative;
     background-size: cover;
     width: 30%;
     background-repeat: no-repeat;
@@ -510,6 +515,7 @@ body {
 }
 
 .block-three-div-1{
+    position: relative;
     background-size: cover;
     width: 51%;
     background-repeat: no-repeat;
@@ -517,10 +523,20 @@ body {
     background-image: url("../../public/imgs/andre-a-xavier-tABAti6Qko4-unsplash 1.png");
 }
 .block-three-div-2{
+    position: relative;
     width: 100%;
     background-repeat: no-repeat;
     height: 400px;
     background-image: url("../../public/imgs/Group 11 (1).png");
 }
-
+.text-position-cart{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+}
 
